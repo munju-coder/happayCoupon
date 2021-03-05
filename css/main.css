@@ -1,0 +1,156 @@
+.wrap { width: 640px; overflow: hidden; margin: 0 auto; }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500&display=swap');
+/* body { font-family: 'Noto Sans KR', sans-serif;  max-width: 640px; height: 100%; } */
+.dw_640px { max-width: 640px; margin: 0 auto; }
+.over_hidden { overflow: hidden; }
+.fw_bold { font-weight: 600; }
+.mt16px { margin-top: 16px; }
+button { border: none; outline: none; color: white; font-weight: 600; cursor: pointer; }
+input { outline: none; }
+select { outline: none; }
+
+header { padding-top: 30px; }
+header .header_top { margin-bottom: 20px; }
+header .header_top .ht_left { float: left; margin-left: 26px; }
+header .header_top::after { content: ''; display: block; overflow: hidden; clear: both; }
+header .header_top .ht_right { float: right; margin-top: 10px; margin-right: 26px; }
+header .header_top .ht_right li { display: inline-block; margin-right: 30px; font-size: 23px; }
+header .header_top .ht_right li:last-child { margin-right: 0; }
+
+.header_bottom { background-color: #eeeff2; padding: 24px 26px;  }
+.header_bottom .nav_left { float: left; }
+.header_bottom .nav_left ul li { float: left; margin-right: 15px; }
+.header_bottom .nav_left ul li:last-child { margin-top: 22px; margin-right: 0; font-size: 21px; }
+.header_bottom .nav_left::after { content: ''; display: block; overflow: hidden; clear: both; }
+
+.header_bottom .nav_right { float: right; }
+.header_bottom .nav_right ul { float: left; overflow: hidden; width:140px; text-align: center; }
+.header_bottom .nav_right ul:last-child { width: 92px; }
+.header_bottom .nav_right ul:first-child {  border-right: 2px solid #94999e; padding-right: 34px; }
+.header_bottom .nav_right ul:last-child li:last-child { font-size: 33px; }
+.header_bottom .nav_right ul li:first-child { margin-bottom: 10px; text-align: right; }
+.header_bottom .nav_right ul li:last-child { font-size: 30px; font-weight: 600; text-align: right; }
+.header_bottom .nav_right ul li span.h_txt { font-size: 23px; margin-right: 10px; }
+.header_bottom .nav_right::after { content: ''; display: block; overflow: hidden; clear: both; }
+.header_bottom::after { content: ''; display: block; overflow: hidden; clear: both; }
+
+.content .main_img { line-height: 0; }
+.content .c_middle { background-color: #eeeff2;  }
+.content .c_middle .cm_wrap { margin-left: 26px; margin-right: 26px; }
+.content .c_middle .cm_wrap .menu_box { text-align: center; border-bottom: 2px solid #4e575e; }
+.content .c_middle .cm_wrap .menu_box:last-child { border-bottom: none; }
+.content .c_middle .cm_wrap .menu_box a { float: left; width: 48%; padding-top: 40px; padding-bottom: 18px; margin-right: 10px; }
+.content .c_middle .cm_wrap .menu_box a:first-child { border-right: 2px solid #94999e; margin-top: 10px; margin-bottom: 10px; }
+.content .c_middle .cm_wrap .menu_box a ul li:first-child { margin-bottom: 10px; }
+.content .c_middle .cm_wrap .menu_box a ul li:last-child { font-size: 22px; color: #4e575e; font-weight: 600; }
+.content .c_middle .cm_wrap .menu_box::after { content: ''; display: block; overflow: hidden; clear: both; } 
+
+.content .c_middle .cm_wrap .menu_box img.couponStore { padding-top: 18px; padding-bottom: 11px; }
+.content .c_middle .cm_wrap .menu_box img.cash_icon { padding-top: 12px; padding-bottom: 18px; }
+.content .c_middle .cm_wrap .menu_box img.cash_content { padding-top: 16px; padding-bottom: 18px; }
+.content .c_middle .cm_wrap .menu_box img.cash_use { padding-top: 15px; padding-bottom: 6px; }
+footer { background-color: #4e575e; color: white; padding-top: 44px; padding-bottom: 28px; }
+footer .ft_wrap { margin-left: 26px; margin-right: 26px; }
+footer .ft_wrap ul li:first-child { font-size: 20px; margin-bottom: 22px; }
+footer .ft_wrap ul li { font-size: 18px; margin-bottom: 12px; }
+footer .ft_wrap ul li:last-child { margin-bottom: 0; }
+
+/*서브페이지 - coupon_purchase(쿠폰구매)*/
+.sub_nav .nav_title { float: right; }
+.sub_nav::after { content: ''; display: block; overflow: hidden; clear: both; }
+.sub_nav .nav_title h2 { font-size: 35px; font-weight: 600; color: #2db8ee; margin-top: 13px; }
+.content .sub_middle .menu_box .hcoupon_img {/*  padding-top: 3px;  */padding-bottom: 6px; }
+.content .sub_middle .menu_box .con_img { padding-top: 10px; padding-bottom: 4px; }
+.content .sub_middle .menu_box .game_img { padding-top: 13px; padding-bottom: 4px; }
+.content .sub_middle .cm_wrap .menu_box a { padding-top: 50px; padding-bottom: 50px; }
+
+/*서브페이지 - cash_use (캐시사용)*/
+.content .sub_middle .cm_wrap .circle_box a:last-child { padding-top: 60px; padding-bottom: 60px; }
+
+/*서브페이지 - cash_reserve (캐시적립)*/
+.content .bg_white { background-color: white; padding-top: 30px; }
+.sub_middle .subm_top { border-bottom: 1px solid #333; padding-bottom: 20px; }
+.sub_middle .subm_top .subm_txt { font-size: 25px; float: left; }
+.sub_middle .subm_top .cash_total { font-size: 28px; font-weight: 600; float: right; }
+.sub_middle .subm_top::after { content: ''; display: block; overflow: hidden; clear: both; }
+.sub_middle .subm_middle { padding: 30px 0; border-bottom: 1px solid #333; margin-bottom: 54px; }
+.sub_middle .subm_middle ul { overflow: hidden; margin-bottom: 20px; }
+.sub_middle .subm_middle ul:last-child { margin-bottom: 0; }
+.sub_middle .subm_middle ul li { display: inline-block; }
+.sub_middle .subm_middle ul li.cash_txt { font-size: 23px; margin-top: 14px; }
+.sub_middle .subm_middle ul li.input_box { float: right; }
+.sub_middle .subm_middle ul li input { width: 300px; padding: 18px 38px; border: 1px solid #61737b; border-radius: 12px; outline: none; font-weight: 600; font-size: 18px; }
+.sub_middle .sub_button { padding-bottom: 200px; }
+.sub_middle .sub_button button { width: 48%; border: none; outline: none; float: left; color: white; font-size: 25px; padding: 12px 0; border-radius: 10px; }
+.sub_middle .sub_button button:first-child { margin-right: 20px; }
+.sub_middle .sub_button::after { content: ''; display: block; overflow: hidden; clear: both; }
+.sub_middle .sub_button button.happy_btn { background-color: #36b4e5; }
+.sub_middle .sub_button button.cancel_btn { background-color: #4e575e; }
+
+/*서브페이지 - mycash(마이캐시)*/
+.sub_middle .member_info { border-bottom: 1px solid #333; padding-bottom: 30px; }
+.sub_middle .member_info ul { margin-bottom: 30px; } 
+.sub_middle .member_info ul:first-child { margin-top: 30px; }
+.sub_middle .member_info ul:last-child { margin-bottom: 0; }
+.sub_middle .member_info ul li { float: left; font-size: 23px; }
+.sub_middle .member_info ul li:last-child { float: right; }
+.sub_middle .member_info ul::after { content: ''; display: block; overflow: hidden; clear: both; }
+
+/*서브페이지 - cash_list(캐시적립내역) 외 리스트페이지동일함*/
+.cash_list_from { padding-top: 5px; }
+.sub_middle .list_box div:not(.cash_bottom,.period_btn > div,.period_btn) { margin-left: 26px; margin-right: 26px; }
+.sub_middle .list_box .cash_top ul li { float: left; }
+.sub_middle .list_box .cash_top ul::after { content: ''; display: block; overflow: hidden; clear: both; }
+.sub_middle .list_box .cash_top .search_top li input { width: 300px; height: 41px; padding: 8px 38px; border: 1px solid #61737b; border-radius: 10px; margin-right: 20px; font-size: 26px; }
+.sub_middle .list_box .cash_top ul li button { color: white; font-size: 20px; border-radius: 10px; }
+.sub_middle .list_box .cash_top .search_top li button.search { width: 178px; padding: 16px 0; background-color: #ff5055; }
+.sub_middle .list_box .cash_top .period_btn { margin-top: 28px; margin-bottom: 35px; }
+.sub_middle .list_box .cash_top .period_btn::after { content:""; display: block; overflow: hidden; clear: both; }
+.sub_middle .list_box .cash_top .period_btn div { float: left; margin-right: 20px; padding: 20px 69px; background-color: #4e575e; color: white; font-size: 20px; font-weight: 600; border-radius: 10px; cursor: pointer; }
+.sub_middle .list_box .cash_top .period_btn div:last-child { margin-right: 0; }
+.sub_middle .list_box .cash_top .period_btn div.recent_week { padding: 20px 54px; }
+.sub_middle .list_box .cash_top .period_btn div.active  { background-color: #36b4e5; }
+
+.cash_bottom .list_table { width: 100%;  border-collapse: collapse; border-spacing: 0; margin-bottom: 55vh; }
+.cash_bottom .list_table thead { background-color: #eeeff2; }
+.cash_bottom .list_table td { font-size: 22px; padding: 20px 10px; text-align: center; }
+.cash_bottom .list_table th { font-size: 22px; padding: 26px 10px 14px 10px; }
+.bg_color { background-color: #f3f3f3; }
+
+/*서브페이지 - coupon_store(쿠폰가맹점)*/
+.store_search_form { margin-left: 26px; margin-right: 26px; margin-bottom: 30vh; }
+.store_box .sb_top { margin-bottom: 25px; }
+.store_box .sb_top select { width: 208px; padding: 10px; font-size: 23px; border-radius: 10px; margin-right: 10px; }
+.store_box .sb_top input { width: 208px; padding: 10px; border: 1px solid #61737b; font-size: 23px; outline: none; border-radius: 12px; }
+.store_box .sb_top button.search { background-color: #ff5055;  border-radius: 10px;  font-size: 22px;  padding: 10px 20px; width: 117px; margin-left: 10px; }
+.store_box .sb_middle .store_address { border-top: 1px solid #333; padding-top: 22px; margin-bottom: 22px; }
+.store_box .sb_middle .store_address ul { float: left; width: 55%; }
+.store_box .sb_middle .store_address ul li:first-child { font-size: 25px; font-weight: 600; margin-bottom: 25px; }
+.store_box .sb_middle .store_address ul li:last-child { font-size: 21px; }
+.store_box .sb_middle .store_address::after { content: ''; display: block; overflow: hidden; clear: both; }
+.store_box .sb_middle .store_address div.store_btn { float: right; }
+.store_box .sb_middle .store_address div.store_btn button { border-radius: 10px;  font-size: 22px;  padding: 10px 20px; width: 117px; }
+.store_box .sb_middle .store_address div.store_btn button.buy_btn { background-color: #36b4e5; }
+.store_box .sb_middle .store_address div.store_btn button.pay_btn { background-color: #4e575e; }
+
+/*cash_use -> convenience_store(편의점사용) 외 서브페이지동일함*/
+input[type='radio']:checked { background-color: white; border: 4px solid #36b4e5; }
+input[type='radio'],input[type='radio']:checked {
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    margin-right: 0.1rem;
+    outline: none;
+}
+input[type='radio'] { background-color: white; border: 4px solid #ddd; }
+.convenience_box .option { margin-top: 20px; font-size: 23px; }
+.convenience_box .option:first-child { padding-top: 10px; }
+.convenience_bottom ul li:last-child { font-size: 23px; }
+.convenience_bottom ul:first-child li:last-child,.convenience_bottom ul:last-child li:last-child { padding-top: 10px; }
+.convenience_bottom ul li select { width: 378px; padding: 13px 10px; border: 1px solid #61737b; border-radius: 10px; font-size: 23px; }
+
+/*coupon_purchase(쿠폰구매) -> happycoupon(해피쿠폰)*/
+.convenience_bottom ul li.monthly_check input { width: 106px; }

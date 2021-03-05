@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>쿠폰구매 해피쿠폰</title>
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!--google-font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500&amp;display=swap" rel="stylesheet">
+    <!--style-->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <!--js-->
+    <script src="../js/main.js"></script>
+    <script src="../js/COMMON.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!--header-->
+        <header class="dw_640px">
+            <div class="header_top">
+                <div class="ht_left">
+                    <h1><a href="../index.html"><img src="../images/happy_logo.png" alt="logo image"></a></h1>
+                </div>
+
+                <ul class="ht_right">
+                    <li><a href="../index.html">홈</a></li>
+                    <li><a href="../mycash.html">마이캐시</a></li>
+                    <li><a href="#">로그인</a></li>
+                    <!-- 로그인 후에는 로그아웃으로 적용해주세요 -->
+                    <!-- <li class=""><a href="#">로그아웃</a></li> -->
+                </ul>
+            </div>
+            
+            <!--nav-->
+            <nav class="header_bottom sub_nav">
+                <div class="nav_left">
+                    <ul class="over_hidden">
+                        <li><img src="../images/mb_icon.png" alt="member icon"></li>
+                        <li><span class="fw_bold">김해피</span>님</li>
+                    </ul>
+                </div>
+               
+                <div class="nav_title">
+                   <h2>쿠폰구매</h2>
+                </div>
+            </nav>
+            <!--// nav-->
+        </header>
+        <!--// header-->
+        <style>
+        </style>
+        <!--content-->
+        <div class="content">
+            <!--sub_middle-->
+            <section class="c_middle dw_640px sub_middle bg_white">
+                <div class="cm_wrap">
+                    <div class="subm_top">
+                        <div class="subm_txt">구매쿠폰</div>
+                        <div class="cash_total">해피쿠폰</div>
+                    </div>
+                   
+                    <!--coupon_form-->
+                    <form action="" class="coupon_form" name="">
+                        <div class="subm_middle convenience_bottom"> 
+                            <ul>
+                                <li class="cash_txt">결제수단</li>
+                                <li class="input_box">신용카드</li>
+                            </ul>
+    
+                            <ul>
+                                <li class="cash_txt">카드번호</li>
+                                <li class="input_box"><input type="text" onkeypress="onlyNumber();" maxlength="16" class="card_num" name="card_num" id="card_num" placeholder="1234-1234-1234-1234"></li>
+                            </ul>
+
+                            <ul>
+                                <li class="cash_txt">유효기간</li>
+                                <li class="input_box monthly_check">
+                                    <input type="text" id="card_period1" onkeypress="onlyNumber();" name="card_period1" class="card_period1" placeholder="mm">
+                                    <input type="text" id="card_period2" onkeypress="onlyNumber();" name="card_period2" class="card_period2" placeholder="yy">
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li class="cash_txt">할부개월</li>
+                                <li class="input_box">
+                                    <select name="" id="">
+                                        <option value="">일시불</option>
+                                        <option value="">2개월</option>
+                                        <option value="">3개월</option>
+                                        <option value="">4개월</option>
+                                        <option value="">5개월</option>
+                                        <option value="">6개월</option>
+                                    </select>
+                                </li>
+                            </ul>
+                            
+                            <ul>
+                                <li class="cash_txt">구매금액</li>
+                                <li class="input_box"><span>100,000</span>원</li>
+                            </ul>
+
+                            <ul>
+                                <li class="cash_txt">전송모바일폰</li>
+                                <li class="input_box">010-0000-0000</li>
+                            </ul>
+                        </div>
+    
+                        <div class="sub_button">
+                            <button type="submit" class="happy_btn">구매</button>
+                            <button type="button" class="cancel_btn">취소</button>
+                        </div>
+                    </form>
+                    <!--// coupon_form-->
+                </div>
+            </section>
+            <!--// sub_middle-->
+        </div>
+        <!--// content-->
+        
+        <!--footer-->
+        <footer class="dw_640px">
+            <div class="ft_wrap">
+                <ul>
+                    <li class="fw_bold">해피페이 주식회사</li>
+                    <li>경기 광명시 밤일안로 42번길 41-1(하안동)  대표이사 : 서은교</li>
+                    <li>고객만족센터 : 1600-8243  FAX : 02-897-8952</li>
+                    <li>(운영시간 : 09:00 ~ 18:00, 점심시간 : 12:00~01:00)</li>
+                </ul>
+            </div>
+        </footer>
+        <!--// footer-->
+    </div>
+</body>
+</html>
